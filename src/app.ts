@@ -3,7 +3,7 @@ import categories from './category/router';
 import cors from 'cors';
 
 const app = express();
-const PORT = process.env.PORT || 3211;
+const PORT = process.env.PORT || 80;
 var cloudinary = require('cloudinary').v2;
 
 app.use(cors());
