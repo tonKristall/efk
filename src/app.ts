@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 // var cloudinary = require('cloudinary').v2;
 
-app.use(cors());
+// app.use(cors());
 app.use(function (req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');
   res.header(
